@@ -37,4 +37,4 @@ Once installed, a notification will appear:
 
 
 ### Note
-As with any script sourced from the internet, it’s wise to review its contents priot to executing. :D
+As with any script sourced from the internet, it’s wise to review its contents prior to executing. :D
