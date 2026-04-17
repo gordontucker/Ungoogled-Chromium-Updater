@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.paulscalise.ungoogled-chromium-updater</string>
+	<string>com.gordontucker.ungoogled-chromium-updater</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/paulscalise/Ungoogled-Chromium-Updater/Ungoogled-Chromium Updater.app/Contents/MacOS/applet</string>
+		<string>/Users/gordontucker/Ungoogled-Chromium-Updater/Ungoogled-Chromium Updater.app/Contents/MacOS/applet</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

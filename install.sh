@@ -11,7 +11,7 @@ ASSETS_DIR="$SCRIPT_DIR/assets"
 # Source files
 APPLE_SCRIPT="$SCRIPT_DIR/Ungoogled-Chromium Updater.applescript"
 ICON_FILE="$ASSETS_DIR/applet.icns"
-LAUNCH_PLIST_SRC="$ASSETS_DIR/com.paulscalise.ungoogled-chromium-updater.plist"
+LAUNCH_PLIST_SRC="$ASSETS_DIR/com.gordontucker.ungoogled-chromium-updater.plist"
 
 # Output .app bundle
 APP_NAME="Ungoogled-Chromium Updater.app"
@@ -62,7 +62,7 @@ echo "Setting custom‐icon attribute"
  #   -f "$APP_DIR"
  
 echo "Updating LaunchAgent plist with actual program path"
-PLIST_SRC="$ASSETS_DIR/com.paulscalise.ungoogled-chromium-updater.plist"
+PLIST_SRC="$ASSETS_DIR/com.gordontucker.ungoogled-chromium-updater.plist"
 APP_EXECUTABLE="$APP_DIR/Contents/MacOS/applet"
 
 /usr/libexec/PlistBuddy -c "Set :ProgramArguments:0 $APP_EXECUTABLE" "$PLIST_SRC"

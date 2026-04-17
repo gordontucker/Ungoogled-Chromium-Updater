@@ -4,6 +4,8 @@ A small macOS applet plus LaunchAgent that periodically checks whether the [Home
 
 **Why Homebrew for both the check and the install:** the cask may trail upstream GitHub releases. Using `brew outdated` matches what you will actually get from `brew upgrade`, so you are not prompted based on a newer upstream DMG that Homebrew has not shipped yet.
 
+**Repository:** [github.com/gordontucker/Ungoogled-Chromium-Updater](https://github.com/gordontucker/Ungoogled-Chromium-Updater)
+
 ## Requirements
 
 - [Homebrew](https://brew.sh) installed (Apple Silicon: `/opt/homebrew`, Intel: `/usr/local` — the script prepends both to `PATH` so LaunchAgents still find `brew`).
@@ -14,7 +16,7 @@ The applet is architecture-agnostic; Homebrew installs the correct build for you
 ## Clone the repo
 
 ```
-git clone https://github.com/paulscalise1/Ungoogled-Chromium-Updater.git
+git clone https://github.com/gordontucker/Ungoogled-Chromium-Updater.git
 ```
 
 ## Install the application
@@ -26,6 +28,8 @@ chmod +x install.sh
 ```
 
 The install script compiles `Ungoogled-Chromium Updater.applescript` into an `.app` bundle and installs a LaunchAgent that runs the updater every 24 hours.
+
+If you previously installed another fork or an older version of this updater, unload and remove its older LaunchAgent first so you do not end up with two scheduled updaters.
 
 ## Usage
 
