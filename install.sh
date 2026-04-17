@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ASSETS_DIR="$SCRIPT_DIR/assets"
 
 # Source files
-APPLE_SCRIPT="$SCRIPT_DIR/Ungoogled-Chromium Updater.scpt"
+APPLE_SCRIPT="$SCRIPT_DIR/Ungoogled-Chromium Updater.applescript"
 ICON_FILE="$ASSETS_DIR/applet.icns"
 LAUNCH_PLIST_SRC="$ASSETS_DIR/com.paulscalise.ungoogled-chromium-updater.plist"
 
